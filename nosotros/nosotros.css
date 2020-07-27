@@ -1,0 +1,47 @@
+.imagenes{  
+    width: 400px;
+    height: 300px;
+    border:#0179B9;
+    box-shadow: 6px 6px 20px 5px #1C1C1C;
+
+}
+h1{
+    color: rgb(6, 69, 68 );
+    font-family: fantasy;
+    margin-left: auto;
+    margin-top: 50px;
+}
+h2{
+    color: rgb(2, 60, 100 );
+    font-family: serif;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.menuCSS3 ul {
+    display: flex;
+    padding:0;
+    margin: 100;
+    list-style: none;
+    font-family: fantasy;
+    margin-left: 350px;
+    font-size: 20px;
+    
+}
+
+.menuCSS3 a {
+    display: table;
+    padding: 1em;
+    background-color: rgb(78, 164, 223);
+    text-decoration: none;
+    color: #191C26;
+    
+    }
+.menuCSS3 a:hover {
+    background-color: rgb(80, 225, 223 );
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}

@@ -1,0 +1,66 @@
+
+
+h1{
+    color: rgb(38, 88, 56);
+    font-family: fantasy;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.imagenes{  
+    width: 450px;
+    height: 300px;
+    border:#0179B9;
+    margin-top: 50px;
+    margin-left: 120px;
+    box-shadow: 6px 6px 20px 5px #1C1C1C;
+
+}
+.menuCSS3 ul {
+    display: flex;
+    padding:0;
+    margin: 100;
+    list-style: none;
+    font-family: fantasy;
+    margin-left: 350px;
+    font-size: 20px;
+    
+}
+
+.menuCSS3 a {
+    display: table;
+    padding: 1em;
+    background-color: rgb(97, 181, 127);
+    text-decoration: none;
+    color: #191C26;
+    
+    }
+.menuCSS3 a:hover {
+    background-color: rgb(18, 229, 94);
+}
+.menuCSS3 ul li ul {
+    display: none;
+}
+.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+    display: block;
+}
+ .formulario{
+
+            width: 450px;
+            margin-left: 500px;
+            background: rgba(184, 202, 198);
+            padding: 20px 30px;
+            box-sizing: border-box;
+            margin-top: 50px;
+            border-radius: 7px;
+
+        }
+         input{
+
+            width:100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            font-size: 18px;
+            font-family:Trebuchet MS;
+            border: 2px solid white;
+        }

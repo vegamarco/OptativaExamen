@@ -1,0 +1,98 @@
+<link rel="icon" href="imagenes/logo1.png">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="consulta.css">
+    <title>Usuario</title>
+</head>
+
+<body bgcolor="C2DDD3">
+
+    <body>
+        <div id="container">
+            <!-- barra navegacion  -->
+            <nav class="menuCSS3">
+                <ul>
+                    <li class="actual"><a href="../inicio.html">Inicio</a></li>
+                    <li><a href="../p.administracion/P.ADMINISTRACION.html">Administrador</a></li>
+                </ul>
+            </nav>
+
+            <center><img src="imagenes/imagg1.jpg"></center>
+            <h1>
+            </h1>
+
+            <!-- formulario  -->
+            <div id="formulario">
+                <form name="formRegistro" action="INICIO.HTML" method="pos">
+                    <table border="0" align="center">
+                        <tr>
+                            <td class="centradoVerde" colspan="2">Consulta de donaciones por:</td>
+                        </tr>
+
+                        <tr>
+                            <td class="description">Donador: </td>
+                            <td class="valor">
+                                <input type="text" name="txtDonador" placeholder="Jhon Cevallos" maxlength="20" size="25" autofocus required/>
+                                <script>
+                                    function alerta2() {
+                                        alert("el Sr. Jhon Cevallos a realizado 5 kits de alimentos.");
+                                    }
+                                </script>
+                                <input type="button" onclick="alerta2()" value="Buscar">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="description">Beneficiario: </td>
+                            <td class="valor">
+                                <input type="text" name="txtBeneficiario" placeholder="Marco Vega" size="25" />
+                                <script>
+                                    function alerta1() {
+                                        alert("el Sr. Marco Vega a recibido una donacion de $50.00.");
+                                    }
+                                </script>
+                                <input type="button" onclick="alerta1()" value="Buscar">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="description">Fecha: </td>
+                            <td class="valor">
+                                <input type="text" name="txtFecha" placeholder="25/03/2020 - 30/03/2020" size="25" />
+                                <script>
+                                    function alerta() {
+                                        alert("el Sr. Jhon Cevallos y Antonio Vega han realizado donaciones en las fechas previstas.");
+                                    }
+                                </script>
+                                <input type="button" onclick="alerta()" value="Buscar">
+                            </td>
+                        </tr>
+
+
+
+
+                    </table>
+                </form>
+            </div>
+
+
+            <!-- fin formulario -->
+
+            <header class="footer">
+                <footer>
+                    <center>
+                        <h4>Dona-Covid &copy;</h4>
+                    </center>
+
+                </footer>
+            </header>
+
+        </div>
+
+    </body>
+
+</html>
